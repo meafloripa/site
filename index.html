@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br"><!--Definindo o tipo de documento e a linguagem da página-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo da pagina</title>
+</head>
+
+<body><!--Tudo que for escrito aqui vai aparecer na página-->
+    <header><!--Cabeçalho da página-->
+        <h1>Meu primeiro site aula 1 html SCTEC</h1><!--Titulo da página-->
+        <nav><!--Seção de navegação, criação de menu, ou topicos-->
+            <ul><!--Criando uma lista para os topicos do menu-->
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+
+        </nav>
+    </header>
+
+    <section id="sobre"><!--Criando uma nova seção no site, e dando um id para criar um link direto-->
+
+        <h2>Sobre mim</h2><!--Titulo menor que h1 -->
+
+        <img src="https://t4.ftcdn.net/jpg/10/37/56/85/360_F_1037568566_mwbJ8Q2iUPkm2ds8fCvsIqJ8PXsjdK2O.jpg"
+            <br><!--Quebra de linha, para separar a imagem do texto-->
+
+        <article><!--Criando um artigo, para organizar o texto-->
+            <p>
+                Meu nome é Meafloripa, tenho 56 anos, moro em Florianópolis, sou graduado em administração publica e
+                estou
+                iniciando meus estudos em HTML para criar meu primeiro site.</p>
+        </article>
+        <aside><!--Criando uma barra lateral, para colocar informações adicionais-->
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+
+
+    </section>
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <article>
+            <h2>Portifoli</h2>
+
+            <p>
+                Este esta sendo primeiro site que desenvolvi, estudando front-end.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Direitos reservados a Meafloripa</p>
+
+        <section id="contatos">
+
+            <h2>Contatos</h2>
+
+            <p> Tem algo em mente para colocar no site</p>
+            <address>
+                Email: <a href="mailto:meafloripa02@gmail.com">meafloripa02@gmail.com</a><br>
+                Telefone: <a href="tel:+5548999999999">+55 48 99999-9999</a>
+                <form action="">
+                    <label for="nome"> Nome:</label>
+                    <input type="text" id="nome" name="nome"required><br><br>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="telefone"> Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" ><br><br>
+
+                    <label for="assunto"> Assunto:</label><br>
+                    <select name="assunto" id="assunto">
+                        <option value="Orçamento">Orçamento</option>
+                        <option value="Duvida"> Duvida</option>
+                        <option value="Outros"> Outros</option>
+
+                    </select>
+                    >
+
+                    <br>
+
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="15"required></textarea>
+
+                    <input type="checkbox" id="inscrição" name="inscrição">
+                    <label for="inscrição">Deseja receber minha newsletter?</label>
+
+                    <br>
+
+                    <input type="submit" value="Enviar mensagem">
+                    <input type="date" name="data" required>
+                </form>
+
+
+        </section>
+
+
+</html>
